@@ -6,6 +6,7 @@
 
 .menu-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;    /* Add this */
   color: #fff;
   background-color: #5995DA;  /* Blue */
@@ -13,15 +14,19 @@
 }
 
 .menu {
+  display: flex;
+  flex-wrap: wrap ;
   border: 0px solid #fff;
   width: 900px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .links {
   border: 0px solid #fff;  /* For debugging */
   display: flex;
+  flex-wrap:wrap ;
   justify-content: flex-end;
 }
 
@@ -33,6 +38,7 @@
   color: #5995DA;
   background-color: #D6E9FE;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -40,18 +46,21 @@
   width: 900px;
   height: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .photo-grid-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .photo-grid {
   width: 900px;
   display: flex;
+  flex-wrap:wrap ;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;  /* <--- Really freaking cool! */
@@ -81,6 +90,7 @@
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
